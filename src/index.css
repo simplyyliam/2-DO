@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-todoBG: #0d0d0d;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 50%;
+    font-size: small;
+}
